@@ -1,0 +1,32 @@
+{
+  "name": "blooket.js",
+  "version": "0.1.0",
+  "description": "a nodejs module for interacting with the blooket api and making calls & requests",
+  "main": "index.ts",
+  "type": "module",
+  "module":"es6",
+  "scripts": {
+    "test": "ts-node --esm ./test/client.test.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gooseterv/bjs.git"
+  },
+  "keywords": [
+    "blooket"
+  ],
+  "author": "goose v",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gooseterv/bjs/issues"
+  },
+  "homepage": "https://github.com/gooseterv/bjs#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.30.0",
+    "node-fetch": "^3.3.0"
+  }
+}
