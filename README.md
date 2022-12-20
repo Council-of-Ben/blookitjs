@@ -1,4 +1,4 @@
-# Blooket.js
+# Blookit
 A Node.js module for interacting with the Blooket API written in TypeScript with Node v19. Supports most common API endpoints including login, open pack, sell blook, add rewards, and more. To get started simply install the module and create a new instance of the client class. The client class will handle all of the API requests for you. If you have any questions or need help feel free to join the [Discord](https://discord.gg/D5XP3Bha) server.
 
 ## Installation
@@ -14,7 +14,7 @@ pnpm add blooket.js
 
 ## Usage
 ```js
-const Blooket = require("blooket");
+const Blooket = require("blookit");
 
 const credentials = {
     email: "email",
@@ -27,6 +27,8 @@ client.login().then(() => {
     console.log("Logged in!");
 });
 ```
+
+View more examples inside of the ./examples directory.
 
 
 

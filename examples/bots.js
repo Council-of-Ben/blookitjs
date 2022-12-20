@@ -1,4 +1,4 @@
-import { Client } from "blooket";
+import { Client } from "blookit";
 import fs from "fs";
 
 const accounts = fs.readFileSync("./src/accounts.csv", "utf8").split("\n").map(line=>line.split(",")).map(x=>({username:x[0],password:x[1]}));

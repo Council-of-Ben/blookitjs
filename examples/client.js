@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { Client } from "blooket";
+import { Client } from "blookit";
 import * as dotenv from "dotenv";
 dotenv.config();
 

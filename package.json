@@ -1,6 +1,6 @@
 {
-  "name": "blooket.js",
-  "version": "1.0.0",
+  "name": "blookit",
+  "version": "1.0.2",
   "description": "a nodejs module for interacting with the blooket api and making calls & requests",
   "main": "index.ts",
   "type": "module",
