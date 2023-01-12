@@ -3,13 +3,13 @@ A Node.js module for interacting with the Blooket API written in TypeScript with
 
 ## Installation
 ```bash
-npm i blooket.js
+npm i blookit
 ```
 ```bash
-yarn add blooket.js
+yarn add blookit
 ```
 ```bash
-pnpm add blooket.js
+pnpm add blookit
 ```
 
 ## Usage
